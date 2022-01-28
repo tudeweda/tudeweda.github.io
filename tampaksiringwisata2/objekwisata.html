@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <title>wisata tampaksiring</title>
+    <!-- my css -->
+    <link rel="stylesheet" href="assets/style.css" />
+    <!-- my font and icont -->
+    <link
+      rel="icon"
+      href="data:image/jpeg;base64,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"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sedgwick+Ave&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <section id="navbar">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <div class="container">
+          <img src="img/logoputih.png" alt="" width="150" height="50" class="logo" />
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mx-auto"></div>
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#objekwisata">Objek Wisata</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="akomodasi.html">Sarana Akomodasi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="index.html">Wawasan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="index.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- end navbar -->
+    <!-- jumbotron -->
+    <section>
+      <div id="background">
+        <div class="carousel-caption">
+          <h2>Objek Wisata <span>tampaksiring</span> , dengan Panorama <span>hamparan sawah</span> dan Keindahan Alam</h2>
+          <button type="button" class="btn btn-success btn-lg" id="dibuka">Jelajahi</button>
+        </div>
+      </div>
+    </section>
+    <!-- endjumbotron -->
+    <!-- objek wisata -->
+    <section id="objekwisata">
+      <div class="container-fluid">
+        <p id="objekwisata" class="display-4 m-4" style="text-align: center">Objek Wisata</p>
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Danau Beratan</h4>
+            <p class="lead">Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Amet soluta ea voluptate architecto ipsa quaerat fugiat optio at iste assumenda enim, nemo natus dolore quia facere earum, quas in numquam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni sed adipisci incidunt facere ex, consequatur deleniti et beatae hic, sequi!</p>
+            <a href="#" class="btn btn-outline-success">Selanjutnya</a>
+            <h4>Hubungi Kami di Sosial Media</h4>
+            <a href="#" class="btn btn-primary">Facebook</a>
+            <a href="#" class="btn btn-success">Twitter</a>
+            <a href="#" class="btn btn-warning">Youtube</a>
+          </div>
+          <div class="col-md-6">
+            <figure class="figure">
+              <img src="img/card1.jpg" class="" width="100%" alt="gambar danau beratan" />
+            </figure>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-md-6">
+            <figure class="figure">
+              <img src="img/card2.jpg" class="img-thumbnail" width="100%" alt="gambar Kebun Raya" />
+              <figcaption style="text-align: center">Gambar Kebun Raya</figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6">
+            <h4>Kebun Raya</h4>
+            <p class="lead">Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Amet soluta ea voluptate architecto ipsa quaerat fugiat optio at iste assumenda enim, nemo natus dolore quia facere earum, quas in numquam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni sed adipisci incidunt facere ex, consequatur deleniti et beatae hic, sequi!</p>
+            <a href="#" class="btn btn-outline-success">Selanjutnya</a><br />
+            <h4>Hubungi Kami di Sosial Media</h4>
+            <a href="#" class="btn btn-primary">Facebook</a>
+            <a href="#" class="btn btn-success">Twitter</a>
+            <a href="#" class="btn btn-warning">Youtube</a>
+          </div>
+        </div>
+        <nav aria-label="Page navigation example">
+          <ul class="pagination justify-content-center">
+            <li class="page-item">
+              <a class="page-link">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <!-- end objek wisata -->
+    <!-- progresbar -->
+    <div class="container" style="background-color: #f3f4f5">
+      <p id="wawasan" class="display-4" style="text-align: center">Kunjungan Wisatawan</p>
+      <div class="progress">
+        <label class="h6">Amerika :</label>
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 35%">35%</div>
+      </div>
+      <br />
+      <div class="progress">
+        <label class="h6">Australia :</label>
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">85%</div>
+      </div>
+      <br />
+      <div class="progress">
+        <label class="h6">China :</label>
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">65%</div>
+      </div>
+      <br />
+      <div class="progress">
+        <label class="h6">Eropa :</label>
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">45%</div>
+      </div>
+      <br />
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#abd5e7"
+        fill-opacity="1"
+        d="M0,0L34.3,26.7C68.6,53,137,107,206,149.3C274.3,192,343,224,411,202.7C480,181,549,107,617,74.7C685.7,43,754,53,823,85.3C891.4,117,960,171,1029,176C1097.1,181,1166,139,1234,101.3C1302.9,64,1371,32,1406,16L1440,0L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+      ></path>
+    </svg>
+    <!-- endprogresbar -->
+    <!-- google maps -->
+    <div class="row">
+      <div class="col-md-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31573.251999914544!2d115.2883743553479!3d-8.435352611770217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2188cea5d0c81%3A0x1800e8dbac4d3f48!2sTampaksiring%2C%20Kabupaten%20Gianyar%2C%20Bali!5e0!3m2!1sid!2sid!4v1643379454579!5m2!1sid!2sid" width="2000" height="450" style="border:0;" allowfullscreen="" loading="lazy""></iframe>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#abd5e7" fill-opacity="1" d="M0,0L34.3,26.7C68.6,53,137,107,206,149.3C274.3,192,343,224,411,202.7C480,181,549,107,617,74.7C685.7,43,754,53,823,85.3C891.4,117,960,171,1029,176C1097.1,181,1166,139,1234,101.3C1302.9,64,1371,32,1406,16L1440,0L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+    <!-- end google maps -->
+    <!-- about -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h2>contact us</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" aria-describedby="name">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" aria-describedby="email">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">pesan</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#abd5e7" fill-opacity="1" d="M0,0L34.3,26.7C68.6,53,137,107,206,149.3C274.3,192,343,224,411,202.7C480,181,549,107,617,74.7C685.7,43,754,53,823,85.3C891.4,117,960,171,1029,176C1097.1,181,1166,139,1234,101.3C1302.9,64,1371,32,1406,16L1440,0L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+  <!-- about -->
+  <!-- foter -->
+   <div id="kaki">
+    <div class="container">
+      <h5 class="text-center" >TAMPAKSIRING © 2022</h5>
+    </div>
+  </div>
+
+  <!-- end footer -->
+
+    
+    <!-- my javascript -->
+    <script type="text/javascript">
+      var nav = document.querySelector("nav");
+
+      window.addEventListener("scroll", function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add("bg-dark", "shadow", "tran");
+        } else {
+          nav.classList.remove("bg-dark", "shadow");
+        }
+      });
+    </script>
+    <!-- end my javascript -->
+    <link rel="stylesheet" href="assets/javascript.js" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>

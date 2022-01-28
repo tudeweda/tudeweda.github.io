@@ -1,0 +1,117 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+/* navbar */
+nav {
+  transition: all 500ms ease-in-out;
+  background-color: transparent;
+}
+.nav-link {
+  text-shadow: 1px 1px 1px black;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: rgb(255, 255, 255);
+}
+
+/* jumbotron */
+#background {
+  margin-top: -120px;
+  background: url(../img/banner-img.png) no-repeat;
+  background-size: cover;
+  padding-top: 111px;
+  height: 800px;
+  max-height: 1112px;
+}
+.carousel-caption {
+  margin-bottom: 200px;
+}
+.carousel-caption h2 span {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* container atas */
+.about {
+  text-align: center;
+}
+.about .isi {
+  margin-top: -100px;
+}
+
+.about .container h1 {
+  margin: 36px;
+}
+
+.about .container .row {
+  margin: -3px;
+}
+
+.about .isi .container.atas {
+  background-color: #f9f8f8;
+  margin-top: 5px;
+  padding-bottom: 37px;
+}
+/* objek wisata */
+
+/* halaman sarana akomodasi */
+#sarana {
+  padding-top: 2rem;
+  background-color: #abd5e7;
+}
+#saran .container .row .col-md-4 {
+  margin: auto;
+}
+/* galeri */
+#gallery .container h1 {
+  text-align: center;
+  font-family: raleway;
+  margin-bottom: 38px;
+}
+
+#gallery .container .row #dua.col-lg-6.col-md-6.col-sm-6.col-xs-6 {
+  padding-top: 31px;
+}
+
+#about {
+  background-color: #102128;
+  margin-top: 79px;
+  color: white;
+}
+
+#about .container {
+  width: 100%;
+  padding: 55px;
+}
+
+#about .container.footer .col-lg-6.col-md-6.col-sm-12.col-xs-12 {
+  font-family: petitamedium;
+  color: #eee;
+}
+
+.input-group.input-group-lg {
+  margin-top: 23px;
+}
+
+#icon {
+  color: white;
+  font-size: 37px;
+  margin-top: 20px;
+  position: static;
+}
+
+#icon i.fa.fa-facebook-official {
+  margin-left: 17px;
+}
+
+#icon i.fa.fa-twitter-square {
+  margin-left: 17px;
+}
+
+#icon i.fa.fa-youtube-play {
+  margin-left: 17px;
+}
+
+#kaki {
+  color: rgb(40, 78, 94);
+  background-color: #102128;
+}
